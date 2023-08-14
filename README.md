@@ -4,7 +4,7 @@
 
 Blurb
 
-The use of this modeling technique in space environment physics has been submitted to the Journal of Geophysical Research: Space Physics as a methods paper demonstrating its utility on unlabelled data from spacecraft and ground based auroral imagers.
+The use SpaceSSL in space environment physics has been submitted to the Journal of Geophysical Research: Space Physics as a methods paper demonstrating its utility on unlabelled data from spacecraft and ground based auroral imagers.
 
 ## Requirements
 
@@ -19,3 +19,6 @@ with extra packages for visualisation:
 
 - matplotlib
 
+## Acknowledgements
+
+The raw all sky image data are available from the [THEMIS website](/http://themis.ssl.berkeley.edu), but the data used here are from [Clausen et al., (2018)](https://doi.org/10.1029/2018JA025274).   We thank [Clausen et al., (2018)](https://doi.org/10.1029/2018JA025274) for their diligent processing, labelling and provison of THEMIS all sky image data.  We would also like to thank [Lightly/Susmelj](/https://github.com/lightly-ai/lightly) for their informative tutorials (e.g. [Lightly SSL Tutorial](/https://docs.lightly.ai/self-supervised-learning/index.html)).
