@@ -12,15 +12,15 @@ from lightly.loss import NegativeCosineSimilarity
 import math
 
 # set parameters
-data_path = 'PATH/TO/DATA/'
+data_path = './oath/images/cropped_scaled/' # path to folder containing the images
 use_cuda = torch.cuda.is_available()
 device = torch.device("cuda:0" if use_cuda else "cpu")
 
 # set hyperparameters
 
-momentum = XXX
-batch_size = XXX
-max_epochs = XXX
+momentum = 0.57
+batch_size = 64
+max_epochs = 10
 
 # dimension of the embeddings - fixed by choice of backbone
 num_ftrs = 512
