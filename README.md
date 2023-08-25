@@ -18,9 +18,9 @@ We provide a [requirements txt](/requirements.txt) and [conda yml](/environment.
 
 ## Usage
 
-The files provided here will train a SimCLR model on the [OATH auroral dataset](http://tid.uio.no/plasma/oath/) [(see Clausen et al., 2018)](https://doi.org/10.1029/2018JA025274).  For the code to run, please download the OATH dataset (from the link above) into this folder (and check the filepaths are correct).  We thank the authors for producing a high quality, freely available dataset.
+The files provided here will train a SimSIAM model on the [OATH auroral dataset](http://tid.uio.no/plasma/oath/) [(see Clausen et al., 2018)](https://doi.org/10.1029/2018JA025274).  For the code to run, please download the OATH dataset (from the link above) into this folder (and check the filepaths are correct).  We thank the authors for producing a high quality, freely available dataset.
 
-The first file [SSL_Train](/SSL_Train.py) will train and save the SimCLR model.  The current parameter set matches those used in the JGR: SP manuscript (derived through an iterative grid search with [Weights and Biases](https://wandb.ai/home)), the principle hyperparameters that can be tuned are:
+The first file [SSL_Train](/SSL_Train.py) will train and save the SimSIAM model.  The current parameter set matches those used in the JGR: SP manuscript (derived through an iterative grid search with [Weights and Biases](https://wandb.ai/home)), the principle hyperparameters that can be tuned are:
 
 - momentum (line 21)
 - batch_size (line 22)
