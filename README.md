@@ -4,7 +4,7 @@
 
 Often in Space Physics, we find that we have large, unlabelled datasets, only a small fraction of which contain observations of the rarely captured, fortuitous events we wish to investigate for scientific studies.  Here we present a solution based upon self-supervised learning whereby we train a model to produce descriptive embeddings that describe two dimensional datasets (e.g. auroral images or particle distributions).  We can then use the distance between embeddings to find similar observations, without manually labelling or inspecting the full dataset.
 
-A paper on the use of SpaceSSL in space physics has been submitted to the Journal of Geophysical Research: Space Physics as a methods paper demonstrating its utility on unlabelled data from the MMS spacecraft and ground based auroral imagers.
+A paper on the use of SpaceSSL in space physics has been published in the Journal of Geophysical Research: Space Physics (https://doi.org/10.1029/2023JA032096), demonstrating its utility on unlabelled data from the MMS spacecraft and ground based auroral imagers.
 
 ## Requirements
 
